@@ -13,6 +13,18 @@ A [NextJS](https://www.nextjs.cn/) app configured with:
 
 ## Quick Start
 
-运行 `npm run dev` 或者 `yarn dev` 命令并访问 `http://localhost:3000`。
+### npm
 
-项目默认为 `3000` 端口，如果想使用其他端口，运行 `yarn dev -p <端口号>` or `npm run dev -- -p <端口号>`。
+```bash
+npm run dev
+#  or npm run dev -- -p <PORT>
+```
+
+### Yarn
+
+```bash
+yarn dev
+# or yarn dev -p <PORT>
+```
+
+Then open `http://localhost:3000` to view app in the browser.
